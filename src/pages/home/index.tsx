@@ -55,16 +55,16 @@ const Home = () => {
             </li>
           </ul>
         </div>
-        <a className="btn-ghost btn text-xl normal-case">daisyUI</a>
+        <a className="btn-ghost btn text-xl normal-case">Home</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Item 1</a>
+            <a>Bitcoin</a>
           </li>
           <li tabIndex={0}>
             <a>
-              Parent
+              Project
               <svg
                 className="fill-current"
                 xmlns="http://www.w3.org/2000/svg"
@@ -77,20 +77,20 @@ const Home = () => {
             </a>
             <ul className="p-2">
               <li>
-                <a>Submenu 1</a>
+                <a>Codes</a>
               </li>
               <li>
-                <a>Submenu 2</a>
+                <a>Live Demo</a>
               </li>
             </ul>
           </li>
           <li>
-            <a>Item 3</a>
+            <a>Weather</a>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn btn-warning">Log in</a>
+        <a className="btn-warning btn">Log in</a>
       </div>
     </div>
   );

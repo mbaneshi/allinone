@@ -14,11 +14,11 @@ const Home: NextPage = () => {
         <title>mbaneshi</title>
         <meta
           name="description"
-          content="Full-Stack Web Developer mbaneshi homepage"
+          content="Full-Stack Web Developer MBaneshi HomePage"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#0adac9] to-[#1bc751]">
+      <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#051b19] to-[#080a2b]">
         <div className="container flex flex-col items-center justify-center gap-12 px-4 py-24 ">
           <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
             <span className="text-[hsla(351,54%,46%,1)]">
