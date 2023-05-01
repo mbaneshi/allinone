@@ -6,13 +6,16 @@ import { signIn, signOut, useSession } from "next-auth/react";
 import { api } from "~/utils/api";
 
 const Home: NextPage = () => {
-  const hello = api.example.hello.useQuery({ text: "from tRPC" });
+  const hello = api.example.hello.useQuery({ text: "Construction" });
 
   return (
     <>
       <Head>
         <title>mbaneshi</title>
-        <meta name="description" content="Full-Stack Web Developer mbaneshi homepage" />
+        <meta
+          name="description"
+          content="Full-Stack Web Developer mbaneshi homepage"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#0adac9] to-[#1bc751]">
@@ -47,9 +50,11 @@ const Home: NextPage = () => {
             </Link>
           </div>
           <div className="flex flex-col items-center gap-2">
-            <p className="text-2xl text-white">
-              {hello.data ? hello.data.greeting : "Loading tRPC query..."}
-            </p>
+            <button className="btn-accent btn">
+              <p className="text-2xl text-white">
+                {hello.data ? hello.data.greeting : "Loading tRPC query..."}
+              </p>
+            </button>
             <AuthShowcase />
           </div>
         </div>
