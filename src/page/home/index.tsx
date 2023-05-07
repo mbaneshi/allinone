@@ -1,4 +1,5 @@
 import React from "react";
+import signInWithEmail from "../auth/signin";
 
 const Home = () => {
   return (
@@ -90,7 +91,7 @@ const Home = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn-warning btn">Log in</a>
+        <a className="btn-warning btn">Sign UP</a>
       </div>
     </div>
   );
